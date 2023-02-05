@@ -17,7 +17,7 @@ class Unit:
     :param cr: крадется ли юнит
     :param points_per_action: базовый параметр скорости
     """
-    def mvmntobjbfld(self, field, feld_1_param, field_2_param, d, fl, cr, points_per_action = 1):
+    def movement_to_object_fild(self, field, feld_1_param, field_2_param, d, fl, cr, points_per_action = 1):
 
         # Для начала проверим не установлены ли у нас два флага полета и подкрадывания в истину,
         # т.к. одновременно эти события не должны происходить
